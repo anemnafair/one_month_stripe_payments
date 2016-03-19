@@ -11,11 +11,12 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160317221419) do
+ActiveRecord::Schema.define(version: 20160318232014) do
 
   create_table "purchases", force: true do |t|
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "uuid"
   end
 
 end
